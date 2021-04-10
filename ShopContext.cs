@@ -15,6 +15,7 @@ namespace FinalPractice
             optionsBuilder.UseSqlServer("Data Source =DESKTOP-1SEMVTT\\SQLEXPRESS; Initial Catalog = Shop; Integrated Security = True");
         }
         //Properties Changes
+        //blah blah
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Customer>()
